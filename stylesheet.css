@@ -17,13 +17,15 @@ p {
     
 }
 
-.image img:hover{
-    transform: scale(2);
+.image img { 
+    content-visibility:hidden;
 }
 
-h2{
-    font-size: 200px;
-    color:white;
-    border:solid black 10px;
-    background-image: url(Epic.gif)
+.image:hover img {
+    content-visibility: visible;
+
+}
+
+.image {
+    box-sizing:content-box;
 }

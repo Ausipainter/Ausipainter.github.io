@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+}
+h1 {
+    color:rgb(255, 0, 0);
+    text-align: center;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium';
+
+
+}
+p {
+    color:rgb(31, 61, 145);
+    text-align: center;
+    font-size: 20px;
+    border: dotted;
+    
+}
+
+.image img:hover{
+    transform: scale(2);
+}
+
+h2{
+    font-size: 200px;
+    color:white;
+    border:solid black 10px;
+    background-image: url(Epic.gif)
+}

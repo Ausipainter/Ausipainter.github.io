@@ -148,3 +148,11 @@ a{
     z-index: -1;
 
 }
+
+audio {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+audio:hover {
+    opacity: 1;
+}
